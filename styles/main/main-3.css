@@ -1,0 +1,33 @@
+.container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    border-top: 1px solid var(--color-2);
+    border-bottom: 1px solid var(--color-2);
+
+
+    width: 900px;
+    column-gap: 20px;
+}
+
+.imgs{
+    
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    border-radius: 5px;
+    background-color: var(--color-2);
+    
+}
+
+.imgs:hover{
+    transform: scale(1.2);
+}
+
+.imgs img{
+    position: relative;
+    top: 5px;
+    width: 150px;
+}

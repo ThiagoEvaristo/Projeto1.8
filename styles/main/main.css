@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    
+    background-color: var(--color-3)
+}
+
+main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin-top: auto;
+    width: 100%;
+   
+}
+
+/**---------- container primário ----------**/
+.container-1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+/**---------- ///////////////// ----------**/
+
+/**---------- imagem ----------**/
+.product{
+
+    width: 700px;
+    position: relative;
+
+    right: 80px;
+    
+}
+/**---------- //////////////// ----------**/
+
+
+/**---------- texto ----------**/
+
+.product-desc{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    row-gap: 50px; /**MARGEM NA VERTICAL**/
+
+    width: 400px; /**TAMANHO HORIZONTAL**/
+    height: 350px; /**TAMANHO VERTICAL**/
+
+    text-align: center; /**ALINHAR TEXTO NO CENTRO**/
+
+    padding-left: 30px;
+
+    position: relative; /**POSIÇÃO**/
+    right: 80px; /**MARGEM DA DIREITA**/
+
+    border-left: 5px solid rgb(255, 255, 255);
+
+
+}
+
+.product-desc h1{
+
+    font-family: 'heavitas';
+    color: white;
+
+    font-size: 25pt;
+
+}
+
+.product-desc p{
+
+    font-family: 'panton';
+    color: white;
+}

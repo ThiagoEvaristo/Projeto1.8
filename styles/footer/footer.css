@@ -1,0 +1,174 @@
+footer{
+    margin-top: auto;
+    position: relative;
+    top: 190px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.info-client{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    width: 1000px;
+    height: 70px;
+
+    
+    background-color: var(--color-1);
+}
+
+.container-info{
+    position: relative;
+    right: 30px;
+}
+
+
+.ofertas{
+
+    color: white;
+    font-family: 'heavitas';
+}
+
+.logo-info{
+    color: white;
+    font-family: 'heavitas';
+}
+
+.input-client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    gap: 30px;
+    position: relative;
+    left: 20px;
+}
+
+.email{
+
+    width: 250px;
+    height: 40px;
+    text-indent: 10px;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 12pt;
+}
+
+
+.name{
+    
+    width: 250px;
+    height: 40px;
+    font-size: 12pt;
+
+    border: none;
+    border-radius: 5px;
+
+    text-indent: 10px;
+}
+
+.button-enviar{
+    background-color: var(--color-2);
+
+    color: white;
+    font-family: 'heavitas';
+    border: none;
+
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+
+    border-radius: 5px;
+    
+}
+
+.button-enviar:hover{
+    background-color: #8b3800;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #8b3800;
+
+    width: 100%;
+    height: 170px;
+    /**height: 670px;**/
+}
+/**----------LISTA 3----------**/
+.list-3{
+    text-align: center;
+    list-style: none;
+    position: relative;
+    left: 200px;
+    
+}
+
+.google{
+    width: 100px;
+    transform: scale(1); /* Restaura o tamanho após o zoom */
+    transform-origin: top left; /* Define a origem da transformação */
+}
+
+.security{
+    margin-top: 20px;
+    width: 80px;
+}
+
+/**----------LISTA 2----------**/
+.list-2{
+    list-style: none;
+    color: var(--color-4);
+
+    position: relative;
+    left: 110px;
+}
+
+.list-2 li{
+    margin-top: 10px;
+
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-2 h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+/**----------LISTA 1----------**/
+
+.list-1{
+    list-style: none;
+    color: var(--color-4);
+
+    position: relative;
+    left: 50px;
+}
+
+.list-1 a{
+    position: relative;
+    left: 0px;
+    letter-spacing: 0;
+    font-size: 10pt;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-1 h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12;
+}

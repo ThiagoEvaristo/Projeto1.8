@@ -1,0 +1,46 @@
+/**---------- container secundario ----------**/
+.container-2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-top: 1px solid var(--color-4);
+
+    width: 800px;
+    height: 500px;
+
+}
+/**---------- /////////////////// ----------**/
+
+/**---------- descrição seuncario ----------**/
+.product-desc-2{
+    width: 400px;
+    color: var(--color-4);
+
+    text-align: center;
+}
+
+.product-desc-2 h1{
+    font-family: 'heavitas';
+    color: var(--color-4);
+    font-size: 25pt;
+}
+
+.product-desc-2 p{
+    font-family: 'panton';
+    color: var(--color-4);
+    font-size: 15pt;
+}
+/**---------- ////////////////// ----------**/
+
+/**---------- imagem secundaria ----------**/
+
+.product-2{
+    padding-left: 150px;
+}
+
+
+.product-2 img{
+    width: 300px;
+}
